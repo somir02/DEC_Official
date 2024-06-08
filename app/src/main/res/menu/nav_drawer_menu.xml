@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/nav_drawer_video"
+        android:title="Video Lectures"
+        android:icon="@drawable/ic_video"/>
+
+    <item android:id="@+id/nav_drawer_ebook"
+        android:title="Ebooks"
+        android:icon="@drawable/ic_ebook"/>
+
+    <item android:id="@+id/nav_drawer_syllabus"
+        android:title="Syllabus"
+        android:icon="@drawable/ic_download"/>
+
+    <item android:id="@+id/nav_drawer_routine"
+        android:title="Routine"
+        android:icon="@drawable/ic_download"/>
+
+    <item android:id="@+id/nav_drawer_pyq"
+        android:title="PYQ"
+        android:icon="@drawable/ic_pyq"/>
+
+    <item android:id="@+id/nav_drawer_about"
+        android:title="About"
+        android:icon="@drawable/ic_about"/>
+
+    <item android:id="@+id/nav_drawer_website"
+        android:title="Website"
+        android:icon="@drawable/ic_website"/>
+
+    <item android:id="@+id/nav_drawer_developer"
+        android:title="Developers"
+        android:icon="@drawable/ic_developer"/>
+
+    </group>
+
+    <item android:title="Logout">
+        <menu>
+        <item android:id="@+id/nav_drawer_logoutBtn"
+            android:title="Logout"
+            android:icon="@drawable/ic_logout">
+        </item>
+        </menu>
+    </item>
+
+
+</menu>
